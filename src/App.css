@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root 
+{
+    --fuente: 'Quicksand';
+    --colorTitle: rgb(95, 95, 95);
+}
+body 
+{
+    background: url('./assets/img/fondo.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fuente),sans-serif;
+}
+
+.formulario__error
+{
+    background-color: red;
+}

@@ -1,0 +1,26 @@
+.formulario__datos
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__datos > input 
+{
+    width:100%;
+    outline: none;
+    padding: 2.4% 5%;
+    font-size: 1.4em;
+    font-family: inherit;
+    color: var(--colorTitle);
+    background-color: rgba(247, 247, 247, 0.363);
+    border: 2px solid rgba(199, 199, 199, 0.781);
+}
+
+
+.formulario__datos > label 
+{
+    margin-bottom: 2.5%;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: rgb(92, 92, 92);
+}
