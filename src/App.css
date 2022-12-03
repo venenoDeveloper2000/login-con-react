@@ -4,6 +4,7 @@
 {
     --fuente: 'Quicksand';
     --colorTitle: rgb(95, 95, 95);
+    --circleIcon:2.5em;
 }
 body 
 {
@@ -23,4 +24,89 @@ body
 .formulario__error
 {
     background-color: red;
+}
+
+.formulario__iconos
+{
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    gap: 1% 8%;
+}
+.formulario__icono:nth-child(1)
+{
+    background-color: rgb(212, 31, 25);
+    color:white;
+    padding: 2.5%;
+    width: var(--circleIcon);
+    height: var(--circleIcon);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.formulario__icono:nth-child(2)
+{
+    background-color: rgb(20, 20, 20);
+    color:white;
+    padding: 2.5%;
+    width: var(--circleIcon);
+    height: var(--circleIcon);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+}
+.formulario__icono:nth-child(2):hover
+{
+    background-color: rgba(20, 20, 20, 0.836);
+    transition: 1.4s all ease-out;
+}
+
+.formulario__icono:nth-child(3):hover
+{
+    background-color: rgba(7, 81, 177, 0.781);
+    transition: 1.4s all ease-out;
+}
+
+.formulario__icono:nth-child(4):hover
+{
+    background-color: rgba(40, 150, 201, 0.774);
+    transition: 1.4s all ease-out;
+}
+
+.formulario__icono:nth-child(1):hover
+{
+    background-color: rgba(212, 31, 25, 0.822);
+    transition: 1.4s all ease-out;
+}
+.formulario__icono:nth-child(3)
+{
+    background-color: rgb(7, 81, 177);
+    color:white;
+    padding: 2.5%;
+    width: var(--circleIcon);
+    height: var(--circleIcon);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.formulario__icono:nth-child(4)
+{
+    background-color: rgb(40, 150, 201);
+    color:white;
+    padding: 2.5%;
+    width: var(--circleIcon);
+    height: var(--circleIcon);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
 }
