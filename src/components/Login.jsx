@@ -4,6 +4,8 @@ import { Campo } from './Campo';
 import Swal from 'sweetalert2';
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
+
+import { Iconos } from './Iconos';
 import { getAuth, signInWithEmailAndPassword} from 'firebase/auth';
 export const Login = ({ titulo })=>{
     const [ email, setEmail ] = useState("");
@@ -51,6 +53,7 @@ export const Login = ({ titulo })=>{
             <div className={ style.formulario__top }>
                 <h3 className={ style.formulario__title }>{ titulo }</h3>
             </div>
+            <Iconos/>
             <div className={ style.formulario__bottom }>
                 <div className={ style.formulario__campos }>
                     { /* Email*/ }
